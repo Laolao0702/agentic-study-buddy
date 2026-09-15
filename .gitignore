@@ -1,0 +1,21 @@
+# Secrets — never commit API keys
+.env
+
+# Virtual environment (757 MB; rebuild with python3.12 -m venv venv)
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local data — these are machine-specific, not source
+backend/chroma_db/
+backend/rag_app.db
+uploads/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

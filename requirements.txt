@@ -1,0 +1,31 @@
+# StudyBuddy — Python 3.12
+# Install:  pip install -r requirements.txt
+
+# LangChain core + graph
+langchain>=0.3
+langchain-core>=0.3
+langchain-text-splitters>=0.3
+langchain-community>=0.3
+langgraph>=0.2
+
+# LLM + embeddings (Google Gemini for both)
+langchain-google-genai>=2.0
+
+# Vector store
+chromadb>=0.5
+langchain-chroma>=0.1
+
+# Backend
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pydantic>=2.7
+python-dotenv>=1.0
+
+# Frontend
+streamlit>=1.37
+requests>=2.32
+
+# Document loaders
+pypdf>=4.3
+docx2txt>=0.8
